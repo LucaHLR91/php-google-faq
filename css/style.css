@@ -3,9 +3,32 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 /* HEADER */
+.header_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.logo {
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+ color: grey;
+}
 
 /* MAIN */
 
@@ -20,4 +43,5 @@ main h2 {
 
 p {
     padding: 20px;
+    line-height: 25px;
 }

@@ -8,7 +8,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 
             'answer' =>
             [
-                'La recente decisione della Corte di Giustizia dell\'Unione Europea ha profonde conseguenze per i motori di ricerca in Europa. La Corte ha stabilito che alcuini utenti hanno il diritto di chiedere ai motori di ricerca come Goole di rimuovere i risultati relativi a chiavi di ricerca che includono il proprio nome. Per poter essere rimossi, i risultati visualizzati devono essere inadeguati o no0n più rilevanti, o eccessivi.',
+                'La recente decisione della Corte di Giustizia dell\'Unione Europea ha profonde conseguenze per i motori di ricerca in Europa. La Corte ha stabilito che alcuini utenti hanno il diritto di chiedere ai motori di ricerca come Goole di rimuovere i risultati relativi a chiavi di ricerca che includono il proprio nome. Per poter essere rimossi, i risultati visualizzati devono essere inadeguati o non più rilevanti, o eccessivi.',
 
                 'Da quando questa decisione è stata pubblicata il 13 maggio 2014, abbiamo lavorato incessantemente per uniformarci a essa. I tratta di una procedura complessa perché dobbiamo valutare ogni singola richiesta e effettuare un bilanciamento tra il dirtto dell\'individuo a controllare i suoi dati personali ed il diritto di tutto di conoscere e distribuire le informazioni',
 
@@ -85,12 +85,26 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Google FAQ</title>
 </head>
 <body>
     <header>
+        <div class="header_top">
+        <div class="logo">
+            <img src="https://loghi-famosi.com/wp-content/uploads/2020/09/Google-Logo.png" alt="Logo Google">
+            <h2>Privacy e Termini</h2>
+        </div>
+        <div class="user">
 
+        </div>
+        </div>
+        <div class="header_nav">'
+
+        </div>
     </header>
 
     <main>
