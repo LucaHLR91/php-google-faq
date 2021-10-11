@@ -94,7 +94,14 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
     </header>
 
     <main>
-        
+        <?php 
+            foreach ($faqs as $faq) {
+                echo '<h2>' . $faq['question'] . '</h2>';
+                for ($i = 0; $i < count($faq['answer']); $i++) {
+                    echo '<p>' . $faq['answer'][$i] . '</p>';
+                }
+            }
+        ?>
     </main>
 </body>
 </html>

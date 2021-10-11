@@ -13,3 +13,11 @@ main {
     width: 70%;
     margin: 0 auto;
 }
+
+main h2 {
+    padding: 20px;
+}
+
+p {
+    padding: 20px;
+}
