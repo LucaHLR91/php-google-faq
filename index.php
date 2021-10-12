@@ -40,9 +40,9 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
             [
                 'Il tuo account è associato a un paese (o territorio) nei Termini di servizio per poter stabilire due cose:',
 
-                '<ol> 
+                '<ol type="1"> 
                     <li> La società consociata Google che offre i servizi, tratta le tue informazioni ed è responsabile del rispetto delle leggi sulla privacy vigenti. Generalmente Google offre i propri servizi per i consumatori tramite una delle due società seguenti: 
-                        <ol>
+                        <ol type= "a">
                             <li> Google Ireland Limited, se gli utenti sono residenti nello Spazio economico europeo (paesi dell\'Unione europea, oltre a Islanda, Liechtenstein e Norvegia) o in Svizzera. </li>
                             <li> Google LLC, con sede negli Stati Uniti, per il resto del mondo. </li>
                         </ol>
