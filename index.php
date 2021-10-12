@@ -85,6 +85,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
@@ -94,16 +95,27 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
 <body>
     <header>
         <div class="header_top">
-        <div class="logo">
-            <img src="https://loghi-famosi.com/wp-content/uploads/2020/09/Google-Logo.png" alt="Logo Google">
-            <h2>Privacy e Termini</h2>
-        </div>
-        <div class="user">
-
-        </div>
+            <div class="logo">
+                <img src="https://loghi-famosi.com/wp-content/uploads/2020/09/Google-Logo.png" alt="Logo Google">
+                <h2>Privacy e Termini</h2>
+            </div>
+            <div class="user">
+                <div class="user_menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="user_icon">
+                    <i class="far fa-user"></i>
+                </div>
+            </div>
         </div>
         <div class="header_nav">'
-
+            <ul>
+                <li>Introduzione</li>
+                <li>Norme Sulla Privacy</li>
+                <li>Termini Di Servizio</li>
+                <li>Tecnologie</li>
+                <li>Domande Frequenti</li>
+            </ul>
         </div>
     </header>
 
@@ -117,5 +129,27 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
             }
         ?>
     </main>
+
+    <footer>
+        <div class="footer_container">
+            <div class="footer_nav">
+                <ul>
+                    <li>Google</li>
+                    <li>Tutto Su Google</li>
+                    <li>Privacy</li>
+                    <li>Termini</li>
+                </ul>
+            </div>
+            <div class="footer_select_language">
+                <i class="far fa-comment-alt"></i>
+                <select name="languages" id="languages">
+                    <option value="Italian">Italian</option>
+                    <option value="English">English</option>
+                    <option value="Deutch">Deutch</option>
+                    <option value="French">French</option>
+                </select>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>

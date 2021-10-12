@@ -30,6 +30,37 @@ body {
  color: grey;
 }
 
+.user {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.user .user_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: lightgray;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.header_nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0px 0 10px 20px;
+    border-bottom: 1px solid lightgray;
+}
+
+.header_nav ul li {
+    padding: 0 10px 0 0;
+    cursor: pointer;
+    color: grey;
+}
 /* MAIN */
 
 main {
@@ -44,4 +75,50 @@ main h2 {
 p {
     padding: 20px;
     line-height: 25px;
+}
+
+/* FOOTER */
+footer {
+    height: 50px;
+    margin: 0 auto;
+    background-color: lightgray;
+}
+
+.footer_container {
+    width: 70%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    padding: 0 10px;
+}
+
+.footer_nav ul li {
+    padding: 0 10px;
+    color: grey;
+    font-size: 13px;
+}
+
+.footer_select_language {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer_select_language i {
+    color: lightskyblue;
+    margin-right: 5px;
+}
+
+.footer_select_language select {
+    border-radius: 5px;
+    border: none;
 }
